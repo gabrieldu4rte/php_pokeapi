@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's that Pokémon?</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Who's that Pokémon?</h1>
+        </header>
+        <main>
+            <div id="game-area" class="card-container">
+                <div class="card">
+                    <canvas id="pokemon-shadow" width="150" height="150"></canvas>
+                </div>
+                <form id="guess-form">
+                    <input type="text" id="pokemon-guess" placeholder="Guess the Pokémon" required>
+                    <button type="submit">Guess</button>
+                </form>
+                <div id="result"></div>
+                <div id="pokemon-info" class="pokemon-info"></div>
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 Who's that Pokémon? by Gabriel Duarte.</p>
+        </footer>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
