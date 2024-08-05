@@ -1,5 +1,5 @@
 <h1>Who's That Pokemon?</h1>
-<p>Esse projeto utiliza a PokeAPI, para geração de um Pokémon aleatório, por meio de uma sombra, para que seja adivinhado pelo usuário.</p>
-<p>Caso o usuário acerte o nome do Pokémon, ele então o revela para o usuário, junto de suas principais estatísticas e características.</p>
+<p>This project uses PokeAPI to generate a random Pokémon, using a shadow, so that it can be guessed by the user.</p>
+<p>If the user guesses the Pokémon's name correctly, it then reveals it to the user, along with its main statistics and characteristics.</p>
 
 
